@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
+
+.button{
+	margin-bottom: 10px;
+}
+
+.img-fluid{
+	max-width: 100%
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+font-family: 'Roboto', cursive;
+font-size: 24px;
+color: #FFFFFF;
+}
+
+h2{
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+color: #000000;
+}
+
+.center {
+align: center;
+}
+
+h3 {
+font-family: 'Roboto', sans-serif;
+}
+
+.hero{
+	position: relative;
+}
+
+.hero-info{
+	position: absolute;
+	top:0;
+	left:0;
+	width:90%;
+	margin: 10% 10px;
+	padding: 20px 10px;
+	color: #fff;
+	background-color: rgba(103,58,183,0.67);
+	text-align: center;
+}
+
+.hero-info h3{
+	text-transform: uppercase;
+	font-size: 24px;
+	margin: 24px;
+}
+
+.hero-info p{
+	font-size: 16px;
+}
+
+.card-hero i{
+	text-align: center;
+}
+
+.travel.card{
+	text-align: center;
+	background-color: #673ab7;
+	color:#ffcc00;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+.card-footer{
+	text-align: center;
+}
+
+.row{
+	padding: 10px;
+}
+
+.imagen-info{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+

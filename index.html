@@ -1,0 +1,333 @@
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Travel App</title>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+			
+	
+</head>
+
+<body class="color-theme-deeppurple">
+ <section id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+	 
+	 <section class="panel panel-left panel-cover">
+	 
+	 	<div class="block">
+		 	<div class="row">
+				<article class="col-30">
+				  <img src="img/man.png" alt="user" class="img-fluid">
+				</article>
+			
+				<article class="col-70 perfil">
+				 	<h3>Alejandro Ponce</h3>
+					<p>Tegucigalpa, Honduras</p>
+				</article>
+			
+			</div>
+		 </div>
+		 
+		 <div class="block">
+		 	<div class="list media-list">
+			 	<ul>
+				 	<li>
+						<a href="/guardado/" class="item-content item-link">
+							<div class="item-media">
+								<i class="material-icons">search</i>
+							</div>
+							<div class="item-inner">
+								<div class="item-title">
+								Búsqueda
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/index/" class="item-content item-link">
+							<div class="item-media">
+								<i class="material-icons">home</i>
+							</div>
+							<div class="item-inner">
+								<div class="item-title">
+								Inicio
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/guardado/" class="item-content item-link">
+							<div class="item-media">
+								<i class="material-icons">place</i>
+							</div>
+							<div class="item-inner">
+								<div class="item-title">
+								Destinos
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/promociones/" class="item-content item-link">
+							<div class="item-media">
+								<i class="material-icons">attach_money</i>
+							</div>
+							<div class="item-inner">
+								<div class="item-title">
+								Promociones 
+								</div>
+							</div>
+						</a>
+					</li>
+						
+					<li>
+						<a href="#" class="item-content item-link">
+							<div class="item-media">
+								<i class="material-icons">
+								settings
+								</i>
+							</div>
+							<div class="item-inner">
+								<div class="item-title">
+								Ajustes
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/info/" class="item-content item-link">
+							<div class="item-media">
+								<i class="material-icons">info</i>
+							</div>
+							<div class="item-inner">
+								<div class="item-title">
+								Sobre la Aplicación
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/login/" class="item-content item-link">
+							<div class="item-media">
+								<i class="material-icons">
+								exit_to_app
+								</i>
+
+							</div>
+							<div class="item-inner">
+								<div class="item-title">
+								Logout
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			 
+			 </div>
+		 
+		 
+		 </div>
+	 
+	 </section>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+				<div class="left">
+					<a class="link panel-open" data-panel="left">
+						<i class="material-icons">
+							menu
+						</i>
+					</a>
+				</div>
+              
+            </div>
+          </nav>
+
+       
+
+          <!-- Scrollable page content -->
+<section class="page-content">	
+	
+
+	
+	
+<div data-pagination='{"el": ".swiper-pagination"}' data-space-between="0" class="swiper-container swiper-init demo-swiper">
+  <div class="swiper-pagination"></div>
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+		 <article class="hero">
+			  <img src="img/kyoto.jpg" class="img-fluid" alt="banner_2">
+				  <div class="hero-info">
+				  <h3>Vista Kyoto</h3>
+					  <p>Vuelos desde $20</p>
+				  </div>
+			  </article>
+	  </div>
+    <div class="swiper-slide">
+	  <article class="hero">
+			  <img src="img/thailand.jpg" class="img-fluid" alt="banner_2">
+				  <div class="hero-info">
+				  <h3>Conoce Bangkok</h3>
+					  <p>Vuelos desde $70</p>
+				  </div>
+			  </article>
+	  </div>
+  </div>
+</div>	
+<div class="row">
+	<div class="card col travel">
+  
+  <div class="card-content card-content-padding">
+<i class="material-icons">
+hotel
+</i>
+	  <h3>Hoteles</h3>
+</div>
+</div>
+	
+	<div class="card travel col">
+  
+  <div class="card-content card-content-padding"><i class="material-icons">
+event_seat
+</i>
+<h3>Vacaciones</h3>		
+</div>
+</div>
+</div>
+	
+	<div class="separador"></div>
+	
+	<div class="row">
+	<div class="card col travel">
+  
+  <div class="card-content card-content-padding"><i class="material-icons">
+airplanemode_active
+</i>
+<h3>Vuelos</h3>
+		</div>
+</div>
+	
+	<div class="card travel col">
+  
+  <div class="card-content card-content-padding">
+		<i class="material-icons">
+whatshot
+</i>
+	<h3>Promociones</h3>
+		</div>
+  
+</div>
+</div>
+	
+
+	
+	<section id="popups">
+			  
+			  <div class="block">
+			  
+			  	<a href="/login/" class="link login-screen-open" data-login-screen=".login-screen">Registro</a>
+			  
+			  </div>
+			  
+			  
+			  <div class="popover popup-menu">
+			  	<div class="popover-inner">
+					<div class="list links-list">
+						<ul>
+							<li>
+								<a href="#" class="link">Agregar</a>
+							</li>
+							
+							<li>
+								<a href="#" class="link">Accordions</a>
+							</li>
+						</ul>
+					</div>  
+				</div>
+			  </div>
+	</section>
+		
+		 <div class="fab fab-right-bottom">
+					  <a href="#">
+						<!-- First icon is visible when Speed Dial actions are closed -->
+						<i class="icon f7-icons">add</i>
+						<!-- Second icon is visible when Speed Dial actions are opened -->
+						<i class="icon f7-icons">close</i>
+					  </a>
+					  <!-- Speed Dial action buttons -->
+					  <div class="fab-buttons fab-buttons-top">
+						<a href="#">Add</a>
+						<a href="#">Take</a>
+					  </div>
+				</div>
+	</section>
+	
+	
+	
+	
+	<section class="login-screen">
+  <!-- Default view-page layout -->
+  <div class="view">
+    <div class="page">
+      <!-- page-content has additional login-screen content -->
+      <div class="page-content login-screen-content">
+        <div class="login-screen-title">Registro</div>
+        <!-- Login form -->
+        <form>
+          <div class="list">
+            <ul>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Username</div>
+                  <div class="item-input-wrap">
+                    <input type="text" name="username" placeholder="Username">
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Password</div>
+                  <div class="item-input-wrap">
+                    <input type="password" name="password" placeholder="Password">
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="list">
+            <ul>
+              <li>
+                <a href="#" class="item-link list-button">Registrar</a>
+              </li>
+            </ul>
+            <div class="block-footer">
+				<a href="/login/" class="link login-screen-close button button-fill">
+					Cancelar
+				</a>
+			</div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+	
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+	
+</body>
+</html>
